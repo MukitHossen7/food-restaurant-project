@@ -74,7 +74,7 @@ margin-bottom: 25px;
   .card-area{
     width: 1016px;
     /* background-color: aqua; */
-    margin: 25px auto;
+    margin: 130px auto;
   }
   .card-box{
     display: flex;
@@ -105,9 +105,10 @@ font-weight: 700;
 line-height: 50px;
 letter-spacing: 0%;
 text-align: center;
+
 }
 
-/* Card CSS */
+/* Card CSS  Start*/
 
 .card-box{
     margin: 36px 0px 45px 0px;
@@ -142,14 +143,13 @@ font-weight: 600;
 line-height: 32px;
 letter-spacing: 0%;
 text-align: center;
+margin: 24px 0;
 }
 .card-one .pizza-text p{
-    color: rgb(16, 16, 16);
+color: rgb(16, 16, 16);
 font-family: Work Sans;
-font-size: 10px;
+font-size: 18px;
 font-weight: 500;
-line-height: 17px;
-letter-spacing: 0%;
 text-align: center;
 }
 .card-box .card-two{
@@ -181,14 +181,13 @@ font-weight: 600;
 line-height: 32px;
 letter-spacing: 0%;
 text-align: center;
+margin: 24px 0;
 }
 .card-two .kacchi-text p{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 17px;
-    letter-spacing: 0%;
     text-align: center;
 }
 .card-box .card-three{
@@ -219,14 +218,14 @@ text-align: center;
     line-height: 32px;
     letter-spacing: 0%;
     text-align: center;
+    margin: 24px 0;
+
 }
 .barger-text p{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 17px;
-    letter-spacing: 0%;
     text-align: center;
 }
         /* Button CSS */
