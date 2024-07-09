@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Work Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.btn-container{
+    text-align: center;
+}
+.btn{
+border-radius: 8px;
+background: rgb(82, 195, 3);
+padding: 16px 26px 16px 26px;
+border: none;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.hero{
+    height: 716px;
+    background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hero-section{
+    width: 797px;
+}
+.hero .hero-section .sub-title{
+    color: rgb(255, 255, 255);
+font-size: 26px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 10px;
+
+}
+.hero .hero-section .title{
+    color: rgb(255, 255, 255);
+font-size: 51px;
+font-weight: 700;
+line-height: 69px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 15px;
+
+}
+
+.hero .hero-section .description{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 25px;
+
+}
+  /* Improtant CSS */
+
+  .card-area{
+    width: 1016px;
+    /* background-color: aqua; */
+    margin: 25px auto;
+  }
+  .card-box{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Improtant CSS */
+
+  .card-head{
+    width:532px;
+    margin: 0 auto;
+  }
+.card-area .card-head p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+.card-area .card-head h2{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 37px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* Card CSS */
+
+.card-box{
+    margin: 36px 0px 45px 0px;
+}
+.card-box .card-one{
+    width: 325px;
+}
+.card-one .pizza img{
+    width: 100%;
+}
+ .pizza-text .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 3px;
+    width: 123px;
+    margin: auto;
+    padding: 5px 7px;
+    background: rgba(82, 195, 3, 0.15);
+
+} 
+
+.card-one .pizza-text h2{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 27px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card-one .pizza-text p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card-box .card-two{
+    width: 325px;
+}
+.card-two .kacchi img{
+    width: 100%;
+}
+.kacchi-text .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 3px;
+    width: 123px;
+    padding: 5px 7px;
+    margin: auto;
+    background: rgba(82, 195, 3, 0.15);
+
+}
+.card-two .kacchi-text h2{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 27px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.card-two .kacchi-text p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-box .card-three{
+    width:325px;
+}
+.card-three .burger img{
+    width: 100%;
+}
+.barger-text .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 3px;
+    width: 123px;
+    padding: 5px 7px;
+    margin: auto;
+    background: rgba(82, 195, 3, 0.15);
+}
+.barger-text h2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.barger-text p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+        /* Button CSS */
+
+.card-area .card-btn{
+display: flex;
+justify-content: center;
+
+}
+.card-area .card-btn button{
+    border-radius: 4px;
+    background: rgb(82, 195, 3);
+    border: none;
+    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: auto;
+}
+
+/* Margin Related CSS */
+.pizza, .kacchi, .burger{
+   margin: 25px 0px;
+   
+}
+
+
+
